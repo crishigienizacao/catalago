@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fundo.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    background-color: #004688;
+    color: rgb(197, 192, 192);
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+#back-to-top {
+    position: relative;
+    bottom: 20px;
+    right: 0.1px;
+    padding: 10px 20px;
+    background-color: #00ffdd;
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+#back-to-top:hover {
+    background-color: #45a049;
+}
+
+a{
+    text-align: right;
+    text-decoration: none;
+    text-decoration-color: #00ffdd;
+}
