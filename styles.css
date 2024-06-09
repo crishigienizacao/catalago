@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fundo.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    background-color: #31cadf;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: rgb(10, 182, 250);
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 9px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    border-color: #fff4f4; 
+}
+
+.service-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    background-color: #001aff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    background-color: #128C7E;
+}
+
+
+#back-to-top {
+    position: relative;
+    bottom: 20px;
+    right: 0.1px;
+    padding: 10px 20px;
+    background-color: #00ffdd;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+#back-to-top:hover {
+    background-color: #45a049;
+}
+
+
+a{
+    text-align: right;
+    text-decoration: none;
+    text-decoration-color: #00ffdd;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+footer{
+    text-align: center;
+    color: #fff4f4;
+}
+
+
+.video {
+   
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 430px;
+    height: 250px;
+}
+
+.video video {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#back-to-top:hover {
+    background-color: #45a049;
+}
